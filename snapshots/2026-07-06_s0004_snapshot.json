@@ -1,0 +1,15 @@
+{
+  "seq_id": 4,
+  "type": "snapshot",
+  "asof": "2026-07-06",
+  "prev_hash": "f08b2ca45fc409ab401c8daa14d0be6ef7b2e1802483156afa078aa801f7af99",
+  "app_ts": "2026-07-06T17:08:05.631Z",
+  "starting_pkr": 1000000,
+  "cash_pkr": 1000000,
+  "positions_value_pkr": 0,
+  "total_equity_pkr": 1000000,
+  "return_pct": 0,
+  "unrealized_pnl_pkr": 0,
+  "realized_pnl_pkr": 0,
+  "positions_count": 0
+}
