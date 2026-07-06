@@ -1,0 +1,437 @@
+{
+  "seq_id": 5,
+  "type": "rebalance",
+  "asof": "2026-07-06",
+  "prev_hash": "5a0719fc730f858323bfcf2f336ecf27073b7291fd04093f89ae57859f40b979",
+  "app_ts": "2026-07-06T17:08:27.659Z",
+  "summary": {
+    "trades": 20,
+    "buys_pkr": 995221,
+    "sells_pkr": 0,
+    "fees_pkr": 4564,
+    "cash_after": 216
+  },
+  "portfolio_before": {
+    "starting_pkr": 1000000,
+    "cash_pkr": 1000000,
+    "positions_value_pkr": 0,
+    "total_equity_pkr": 1000000,
+    "return_pct": 0,
+    "positions": []
+  },
+  "portfolio_after": {
+    "starting_pkr": 1000000,
+    "cash_pkr": 216,
+    "positions_value_pkr": 995221,
+    "total_equity_pkr": 995436,
+    "return_pct": -0.4564,
+    "positions": [
+      {
+        "symbol": "ATRL",
+        "shares": 104,
+        "avg_cost_pkr": 875,
+        "last_price_pkr": 875
+      },
+      {
+        "symbol": "BNL",
+        "shares": 1438,
+        "avg_cost_pkr": 7.15,
+        "last_price_pkr": 7.15
+      },
+      {
+        "symbol": "DOL",
+        "shares": 785,
+        "avg_cost_pkr": 32.89,
+        "last_price_pkr": 32.89
+      },
+      {
+        "symbol": "DSL",
+        "shares": 18727,
+        "avg_cost_pkr": 5.26,
+        "last_price_pkr": 5.26
+      },
+      {
+        "symbol": "EFERT",
+        "shares": 208,
+        "avg_cost_pkr": 198.6,
+        "last_price_pkr": 198.6
+      },
+      {
+        "symbol": "EPCL",
+        "shares": 638,
+        "avg_cost_pkr": 34.79,
+        "last_price_pkr": 34.79
+      },
+      {
+        "symbol": "FABL",
+        "shares": 833,
+        "avg_cost_pkr": 103.76,
+        "last_price_pkr": 103.76
+      },
+      {
+        "symbol": "INIL",
+        "shares": 535,
+        "avg_cost_pkr": 186.64,
+        "last_price_pkr": 186.64
+      },
+      {
+        "symbol": "KEL",
+        "shares": 7687,
+        "avg_cost_pkr": 8.17,
+        "last_price_pkr": 8.17
+      },
+      {
+        "symbol": "MARI",
+        "shares": 101,
+        "avg_cost_pkr": 704.99,
+        "last_price_pkr": 704.99
+      },
+      {
+        "symbol": "MLCF",
+        "shares": 142,
+        "avg_cost_pkr": 109.8,
+        "last_price_pkr": 109.8
+      },
+      {
+        "symbol": "MUGHAL",
+        "shares": 330,
+        "avg_cost_pkr": 91.2,
+        "last_price_pkr": 91.2
+      },
+      {
+        "symbol": "PAEL",
+        "shares": 2138,
+        "avg_cost_pkr": 46.76,
+        "last_price_pkr": 46.76
+      },
+      {
+        "symbol": "PIBTL",
+        "shares": 1835,
+        "avg_cost_pkr": 18.88,
+        "last_price_pkr": 18.88
+      },
+      {
+        "symbol": "PIOC",
+        "shares": 89,
+        "avg_cost_pkr": 285.02,
+        "last_price_pkr": 285.02
+      },
+      {
+        "symbol": "PSO",
+        "shares": 65,
+        "avg_cost_pkr": 355,
+        "last_price_pkr": 355
+      },
+      {
+        "symbol": "SEARL",
+        "shares": 209,
+        "avg_cost_pkr": 99,
+        "last_price_pkr": 99
+      },
+      {
+        "symbol": "TPLP",
+        "shares": 7874,
+        "avg_cost_pkr": 12.7,
+        "last_price_pkr": 12.7
+      },
+      {
+        "symbol": "TRSM",
+        "shares": 1324,
+        "avg_cost_pkr": 15.73,
+        "last_price_pkr": 15.73
+      },
+      {
+        "symbol": "WAVES",
+        "shares": 1373,
+        "avg_cost_pkr": 11.33,
+        "last_price_pkr": 11.33
+      }
+    ]
+  },
+  "picks": [
+    {
+      "symbol": "TPLP",
+      "weight": 0.1,
+      "signal_z": 5.950612545013428,
+      "close_pkr": 12.69999980926514
+    },
+    {
+      "symbol": "INIL",
+      "weight": 0.1,
+      "signal_z": 3.7561349868774414,
+      "close_pkr": 186.63999938964844
+    },
+    {
+      "symbol": "PAEL",
+      "weight": 0.1,
+      "signal_z": 1.3940627574920654,
+      "close_pkr": 46.7599983215332
+    },
+    {
+      "symbol": "DSL",
+      "weight": 0.0985077576697312,
+      "signal_z": 1.226029634475708,
+      "close_pkr": 5.26000022888184
+    },
+    {
+      "symbol": "ATRL",
+      "weight": 0.09123907549353995,
+      "signal_z": 1.1799298524856567,
+      "close_pkr": 875
+    },
+    {
+      "symbol": "FABL",
+      "weight": 0.08652601660443146,
+      "signal_z": 1.1490504741668701,
+      "close_pkr": 103.76000213623047
+    },
+    {
+      "symbol": "MARI",
+      "weight": 0.07141743645714906,
+      "signal_z": 1.0439215898513794,
+      "close_pkr": 704.989990234375
+    },
+    {
+      "symbol": "KEL",
+      "weight": 0.06280661000459176,
+      "signal_z": 0.9789678454399109,
+      "close_pkr": 8.17000007629395
+    },
+    {
+      "symbol": "EFERT",
+      "weight": 0.04142922718855593,
+      "signal_z": 0.7950952649116516,
+      "close_pkr": 198.60000610351562
+    },
+    {
+      "symbol": "PIBTL",
+      "weight": 0.034663344205671215,
+      "signal_z": 0.7272788882255554,
+      "close_pkr": 18.8799991607666
+    },
+    {
+      "symbol": "MUGHAL",
+      "weight": 0.03015065447092906,
+      "signal_z": 0.6782879829406738,
+      "close_pkr": 91.19999694824219
+    },
+    {
+      "symbol": "DOL",
+      "weight": 0.025850381255076847,
+      "signal_z": 0.6280572414398193,
+      "close_pkr": 32.88999938964844
+    },
+    {
+      "symbol": "PIOC",
+      "weight": 0.025631117352376886,
+      "signal_z": 0.625387966632843,
+      "close_pkr": 285.0199890136719
+    },
+    {
+      "symbol": "PSO",
+      "weight": 0.02313240575889616,
+      "signal_z": 0.5941227078437805,
+      "close_pkr": 355
+    },
+    {
+      "symbol": "EPCL",
+      "weight": 0.022221445878123993,
+      "signal_z": 0.5823068618774414,
+      "close_pkr": 34.79000091552734
+    },
+    {
+      "symbol": "TRSM",
+      "weight": 0.020836754585032414,
+      "signal_z": 0.5638723373413086,
+      "close_pkr": 15.72999954223633
+    },
+    {
+      "symbol": "SEARL",
+      "weight": 0.02074184411212716,
+      "signal_z": 0.5625866651535034,
+      "close_pkr": 99
+    },
+    {
+      "symbol": "MLCF",
+      "weight": 0.01562383721654021,
+      "signal_z": 0.48826950788497925,
+      "close_pkr": 109.80000305175781
+    },
+    {
+      "symbol": "WAVES",
+      "weight": 0.015564991050487748,
+      "signal_z": 0.48734912276268005,
+      "close_pkr": 11.32999992370605
+    },
+    {
+      "symbol": "BNL",
+      "weight": 0.013657100300815081,
+      "signal_z": 0.4565044343471527,
+      "close_pkr": 7.15000009536743
+    }
+  ],
+  "trades": [
+    {
+      "side": "BUY",
+      "symbol": "BNL",
+      "shares": 1438,
+      "price_pkr": 7.15000009536743,
+      "notional_pkr": 10281.700137138365,
+      "fees_pkr": 46.66621457476853
+    },
+    {
+      "side": "BUY",
+      "symbol": "WAVES",
+      "shares": 1373,
+      "price_pkr": 11.32999992370605,
+      "notional_pkr": 15556.089895248406,
+      "fees_pkr": 70.7022005374105
+    },
+    {
+      "side": "BUY",
+      "symbol": "MLCF",
+      "shares": 142,
+      "price_pkr": 109.80000305175781,
+      "notional_pkr": 15591.60043334961,
+      "fees_pkr": 69.2936842385751
+    },
+    {
+      "side": "BUY",
+      "symbol": "SEARL",
+      "shares": 209,
+      "price_pkr": 99,
+      "notional_pkr": 20691,
+      "fees_pkr": 92.5237973178403
+    },
+    {
+      "side": "BUY",
+      "symbol": "TRSM",
+      "shares": 1324,
+      "price_pkr": 15.72999954223633,
+      "notional_pkr": 20826.519393920902,
+      "fees_pkr": 97.64420546571581
+    },
+    {
+      "side": "BUY",
+      "symbol": "EPCL",
+      "shares": 638,
+      "price_pkr": 34.79000091552734,
+      "notional_pkr": 22196.02058410644,
+      "fees_pkr": 101.35160730140262
+    },
+    {
+      "side": "BUY",
+      "symbol": "PSO",
+      "shares": 65,
+      "price_pkr": 355,
+      "notional_pkr": 23075,
+      "fees_pkr": 102.67135190369629
+    },
+    {
+      "side": "BUY",
+      "symbol": "PIOC",
+      "shares": 89,
+      "price_pkr": 285.0199890136719,
+      "notional_pkr": 25366.779022216797,
+      "fees_pkr": 115.38908996691941
+    },
+    {
+      "side": "BUY",
+      "symbol": "DOL",
+      "shares": 785,
+      "price_pkr": 32.88999938964844,
+      "notional_pkr": 25818.649520874023,
+      "fees_pkr": 122.95063662584941
+    },
+    {
+      "side": "BUY",
+      "symbol": "MUGHAL",
+      "shares": 330,
+      "price_pkr": 91.19999694824219,
+      "notional_pkr": 30095.998992919922,
+      "fees_pkr": 135.88767503833594
+    },
+    {
+      "side": "BUY",
+      "symbol": "PIBTL",
+      "shares": 1835,
+      "price_pkr": 18.8799991607666,
+      "notional_pkr": 34644.798460006714,
+      "fees_pkr": 155.3727753615328
+    },
+    {
+      "side": "BUY",
+      "symbol": "EFERT",
+      "shares": 208,
+      "price_pkr": 198.60000610351562,
+      "notional_pkr": 41308.80126953125,
+      "fees_pkr": 185.6436339687981
+    },
+    {
+      "side": "BUY",
+      "symbol": "KEL",
+      "shares": 7687,
+      "price_pkr": 8.17000007629395,
+      "notional_pkr": 62802.7905864716,
+      "fees_pkr": 283.0932116625874
+    },
+    {
+      "side": "BUY",
+      "symbol": "MARI",
+      "shares": 101,
+      "price_pkr": 704.989990234375,
+      "notional_pkr": 71203.98901367188,
+      "fees_pkr": 319.73110086070835
+    },
+    {
+      "side": "BUY",
+      "symbol": "FABL",
+      "shares": 833,
+      "price_pkr": 103.76000213623047,
+      "notional_pkr": 86432.08177947998,
+      "fees_pkr": 395.42805996584497
+    },
+    {
+      "side": "BUY",
+      "symbol": "ATRL",
+      "shares": 104,
+      "price_pkr": 875,
+      "notional_pkr": 91000,
+      "fees_pkr": 408.4818145474874
+    },
+    {
+      "side": "BUY",
+      "symbol": "DSL",
+      "shares": 18727,
+      "price_pkr": 5.26000022888184,
+      "notional_pkr": 98504.02428627023,
+      "fees_pkr": 471.48803063471115
+    },
+    {
+      "side": "BUY",
+      "symbol": "PAEL",
+      "shares": 2138,
+      "price_pkr": 46.7599983215332,
+      "notional_pkr": 99972.87641143799,
+      "fees_pkr": 450.26184039084825
+    },
+    {
+      "side": "BUY",
+      "symbol": "INIL",
+      "shares": 535,
+      "price_pkr": 186.63999938964844,
+      "notional_pkr": 99852.39967346191,
+      "fees_pkr": 479.9251135264581
+    },
+    {
+      "side": "BUY",
+      "symbol": "TPLP",
+      "shares": 7874,
+      "price_pkr": 12.69999980926514,
+      "notional_pkr": 99999.79849815372,
+      "fees_pkr": 459.0474406760688
+    }
+  ],
+  "cost_model": "brokerage 25bps + salesTax 3.25bps + cdcPsxNccpl 1bp + spread 15bps + impact 50*sqrt(size/mdv) capped 250bps + CGT 15%",
+  "next_rebalance_date": "2026-07-20"
+}
