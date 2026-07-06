@@ -1,0 +1,15 @@
+{
+  "seq_id": 6,
+  "type": "snapshot",
+  "asof": "2026-07-06",
+  "prev_hash": "98f5bd2c519ead3bf8a9bde5ed0bb068c66a09966a8f7fb66f17c2f5c55428c6",
+  "app_ts": "2026-07-06T17:08:29.538Z",
+  "starting_pkr": 1000000,
+  "cash_pkr": 216,
+  "positions_value_pkr": 995221,
+  "total_equity_pkr": 995436,
+  "return_pct": -0.4564,
+  "unrealized_pnl_pkr": 0,
+  "realized_pnl_pkr": -4564,
+  "positions_count": 20
+}
