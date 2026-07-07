@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-07T06:51:47.572Z",
-  "head_hash": "b95759058cb1713638424a3d5db472875fe69256e4fbbce41b08b9332683461f",
-  "seq_id": 7,
-  "total_records": 7,
+  "updated_at": "2026-07-07T07:13:24.473Z",
+  "head_hash": "a6cca5fab69575c65401e9e64310282c7a835ce38b10f2715f3144604705aa78",
+  "seq_id": 8,
+  "total_records": 8,
   "first_published_ts": "2026-07-06T17:02:42.948Z",
-  "last_published_ts": "2026-07-07T06:51:45.211Z",
+  "last_published_ts": "2026-07-07T07:13:19.956Z",
   "recent": [
     {
       "seq_id": 1,
@@ -68,11 +68,31 @@
       "sha": "4429ff37dece22dc179a3a52b53cf85f9322b2bf",
       "hash": "b95759058cb1713638424a3d5db472875fe69256e4fbbce41b08b9332683461f",
       "ts": "2026-07-07T06:51:45.211Z"
+    },
+    {
+      "seq_id": 8,
+      "type": "snapshot",
+      "asof": "2026-07-07",
+      "path": "snapshots/2026-07-07_s0008_snapshot.json",
+      "sha": "d4b8bbe2eb0fd2cc84bb00b548510f7a683518e5",
+      "hash": "a6cca5fab69575c65401e9e64310282c7a835ce38b10f2715f3144604705aa78",
+      "ts": "2026-07-07T07:13:19.956Z"
     }
   ],
-  "verification_notes": [
-    "This log is chained via SHA-256 of the previous record's canonical JSON.",
-    "Each record's app_ts is compared to its GitHub commit timestamp.",
-    "Any retroactive edit breaks the hash chain and is publicly detectable."
-  ]
+  "verification": {
+    "hash_rule": "For every record, compute sha256 of canonical JSON with keys sorted, MINUS the ots_receipts and hash_rule and ots_verify fields. Result should match the next record's prev_hash and the entry's `hash` in this manifest.",
+    "chain_rule": "Each record's prev_hash equals the previous record's hash. Genesis (first record) has prev_hash='GENESIS'.",
+    "timestamp_proof": [
+      "Each record includes ots_receipts[] — one per OpenTimestamps calendar server contacted at publish time.",
+      "Each receipt is a base64-encoded binary OTS timestamp file (~200-500 bytes).",
+      "Base64-decode a receipt to a .ots file and run: `ots verify --digest <record.hash> receipt.ots`",
+      "Within 1-24h after publish, the OTS receipt auto-upgrades to a full Bitcoin block proof. `ots upgrade receipt.ots` retrieves the current state.",
+      "This anchors each record's hash in Bitcoin's proof-of-work chain — cannot be forged by the app, GitHub, or the calendar servers."
+    ],
+    "calendars_used": [
+      "https://alice.btc.calendar.opentimestamps.org",
+      "https://bob.btc.calendar.opentimestamps.org",
+      "https://finney.calendar.eternitywall.com"
+    ]
+  }
 }
