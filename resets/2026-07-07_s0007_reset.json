@@ -1,0 +1,19 @@
+{
+  "seq_id": 7,
+  "type": "reset",
+  "asof": "2026-07-07",
+  "prev_hash": "ef9402f5640fe0e7cdcdb225ed6b9117932b85e1fe8a4adc024abbced6618287",
+  "app_ts": "2026-07-07T06:51:45.211Z",
+  "old_state": {
+    "starting_pkr": 1000000,
+    "cash_pkr": 216,
+    "positions_value_pkr": 995221,
+    "total_equity_pkr": 995436,
+    "return_pct": -0.4564,
+    "positions_count": 20,
+    "realized_pnl_pkr": -4564,
+    "unrealized_pnl_pkr": 0
+  },
+  "new_starting_pkr": null,
+  "reason": "user-initiated reset"
+}
