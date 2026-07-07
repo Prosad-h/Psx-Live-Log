@@ -1,0 +1,37 @@
+{
+  "seq_id": 8,
+  "type": "snapshot",
+  "asof": "2026-07-07",
+  "prev_hash": "b95759058cb1713638424a3d5db472875fe69256e4fbbce41b08b9332683461f",
+  "app_ts": "2026-07-07T07:13:19.956Z",
+  "starting_pkr": 1000000,
+  "cash_pkr": 1000000,
+  "positions_value_pkr": 0,
+  "total_equity_pkr": 1000000,
+  "return_pct": 0,
+  "unrealized_pnl_pkr": 0,
+  "realized_pnl_pkr": 0,
+  "positions_count": 0,
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AgpLnjPd1dzLQjwEAbqRsIxkTbVLXYZuBHvkyMI8SA3mbW/uZeqk2197fN+d6CQLnI7X24HGxMl9V00uOeLhAjwIKf6Iobm+86d5BqiAMuVQkWQFj4VvCxZNksA2Ij3B/ZcCPEEakynEvAIVsSiRu5wqtgAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw==",
+      "submitted_at": "2026-07-07T07:13:22.285Z",
+      "bytes_len": 172
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AjNXUEYOXgaQAjwEE+nEjXQHZugrMD7NhpqTgEI8CA1ASR13iZXl8Fjh17sM8VmjcUJnKHKYoXWbhuaVj/QTQjxBGpMpxHwCI4t0gCL+TemAIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+      "submitted_at": "2026-07-07T07:13:21.883Z",
+      "bytes_len": 135
+    },
+    {
+      "calendar": "https://finney.calendar.eternitywall.com",
+      "receipt_b64": "8BBk4OFt7pKDgWvE7oVGP6EYCPEgi3HN3SIkh1CVOqcNweGETB+25O4ES2tw3Zug661uDuQI8QRqTKcR8AgfP9HHBRjAiwCD3+MNLvkMjikoaHR0cHM6Ly9maW5uZXkuY2FsZW5kYXIuZXRlcm5pdHl3YWxsLmNvbQ==",
+      "submitted_at": "2026-07-07T07:13:21.412Z",
+      "bytes_len": 121
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest a6cca5fab69575c65401e9e64310282c7a835ce38b10f2715f3144604705aa78 <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
