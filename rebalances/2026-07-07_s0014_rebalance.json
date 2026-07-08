@@ -1,0 +1,459 @@
+{
+  "seq_id": 14,
+  "type": "rebalance",
+  "asof": "2026-07-07",
+  "prev_hash": "ede3d8a2eef1b0aa26982128ddb4af4a9c10c6e71e53de112e5ee2dcdcdf2f6c",
+  "app_ts": "2026-07-08T04:36:35.568Z",
+  "summary": {
+    "trades": 20,
+    "buys_pkr": 994996,
+    "sells_pkr": 0,
+    "fees_pkr": 4733,
+    "cash_after": 271
+  },
+  "portfolio_before": {
+    "starting_pkr": 1000000,
+    "cash_pkr": 1000000,
+    "positions_value_pkr": 0,
+    "total_equity_pkr": 1000000,
+    "return_pct": 0,
+    "positions": []
+  },
+  "portfolio_after": {
+    "starting_pkr": 1000000,
+    "cash_pkr": 271,
+    "positions_value_pkr": 994996,
+    "total_equity_pkr": 995267,
+    "return_pct": -0.4733,
+    "positions": [
+      {
+        "symbol": "ANL",
+        "shares": 1558,
+        "avg_cost_pkr": 11.04,
+        "last_price_pkr": 11.04
+      },
+      {
+        "symbol": "CEPB",
+        "shares": 2165,
+        "avg_cost_pkr": 33.7,
+        "last_price_pkr": 33.7
+      },
+      {
+        "symbol": "CRTM",
+        "shares": 131,
+        "avg_cost_pkr": 74,
+        "last_price_pkr": 74
+      },
+      {
+        "symbol": "FABL",
+        "shares": 361,
+        "avg_cost_pkr": 105.2,
+        "last_price_pkr": 105.2
+      },
+      {
+        "symbol": "FLYNG",
+        "shares": 2061,
+        "avg_cost_pkr": 48.51,
+        "last_price_pkr": 48.51
+      },
+      {
+        "symbol": "GCIL",
+        "shares": 1585,
+        "avg_cost_pkr": 38.61,
+        "last_price_pkr": 38.61
+      },
+      {
+        "symbol": "GGGL",
+        "shares": 3582,
+        "avg_cost_pkr": 9.71,
+        "last_price_pkr": 9.71
+      },
+      {
+        "symbol": "IBLHL",
+        "shares": 1000,
+        "avg_cost_pkr": 58.26,
+        "last_price_pkr": 58.26
+      },
+      {
+        "symbol": "INIL",
+        "shares": 132,
+        "avg_cost_pkr": 185.4,
+        "last_price_pkr": 185.4
+      },
+      {
+        "symbol": "LCI",
+        "shares": 58,
+        "avg_cost_pkr": 241.5,
+        "last_price_pkr": 241.5
+      },
+      {
+        "symbol": "MARI",
+        "shares": 22,
+        "avg_cost_pkr": 699.3,
+        "last_price_pkr": 699.3
+      },
+      {
+        "symbol": "MEBL",
+        "shares": 61,
+        "avg_cost_pkr": 573,
+        "last_price_pkr": 573
+      },
+      {
+        "symbol": "MUGHAL",
+        "shares": 664,
+        "avg_cost_pkr": 92.7,
+        "last_price_pkr": 92.7
+      },
+      {
+        "symbol": "OCTOPUS",
+        "shares": 544,
+        "avg_cost_pkr": 34.2,
+        "last_price_pkr": 34.2
+      },
+      {
+        "symbol": "PAEL",
+        "shares": 2119,
+        "avg_cost_pkr": 47.17,
+        "last_price_pkr": 47.17
+      },
+      {
+        "symbol": "SEARL",
+        "shares": 754,
+        "avg_cost_pkr": 100.35,
+        "last_price_pkr": 100.35
+      },
+      {
+        "symbol": "SLGL",
+        "shares": 2484,
+        "avg_cost_pkr": 18.06,
+        "last_price_pkr": 18.06
+      },
+      {
+        "symbol": "TOMCL",
+        "shares": 302,
+        "avg_cost_pkr": 44.7,
+        "last_price_pkr": 44.7
+      },
+      {
+        "symbol": "TPLP",
+        "shares": 7530,
+        "avg_cost_pkr": 13.28,
+        "last_price_pkr": 13.28
+      },
+      {
+        "symbol": "WAVES",
+        "shares": 8576,
+        "avg_cost_pkr": 11.66,
+        "last_price_pkr": 11.66
+      }
+    ]
+  },
+  "picks": [
+    {
+      "symbol": "TPLP",
+      "weight": 0.1,
+      "signal_z": 3.4045212268829346,
+      "close_pkr": 13.27999973297119
+    },
+    {
+      "symbol": "FLYNG",
+      "weight": 0.1,
+      "signal_z": 2.7398977279663086,
+      "close_pkr": 48.5099983215332
+    },
+    {
+      "symbol": "WAVES",
+      "weight": 0.1,
+      "signal_z": 2.049525499343872,
+      "close_pkr": 11.65999984741211
+    },
+    {
+      "symbol": "PAEL",
+      "weight": 0.1,
+      "signal_z": 2.0427017211914062,
+      "close_pkr": 47.16999816894531
+    },
+    {
+      "symbol": "SEARL",
+      "weight": 0.0757202741751162,
+      "signal_z": 1.720590591430664,
+      "close_pkr": 100.3499984741211
+    },
+    {
+      "symbol": "CEPB",
+      "weight": 0.0729900973812546,
+      "signal_z": 1.6892869472503662,
+      "close_pkr": 33.70000076293945
+    },
+    {
+      "symbol": "MUGHAL",
+      "weight": 0.0615755659756397,
+      "signal_z": 1.55158531665802,
+      "close_pkr": 92.69999694824219
+    },
+    {
+      "symbol": "GCIL",
+      "weight": 0.061227723181087136,
+      "signal_z": 1.547196626663208,
+      "close_pkr": 38.61000061035156
+    },
+    {
+      "symbol": "IBLHL",
+      "weight": 0.05826314077931525,
+      "signal_z": 1.5092750787734985,
+      "close_pkr": 58.2599983215332
+    },
+    {
+      "symbol": "SLGL",
+      "weight": 0.04487189787552402,
+      "signal_z": 1.324520468711853,
+      "close_pkr": 18.05999946594238
+    },
+    {
+      "symbol": "FABL",
+      "weight": 0.03801163552028463,
+      "signal_z": 1.2190730571746826,
+      "close_pkr": 105.19999694824219
+    },
+    {
+      "symbol": "MEBL",
+      "weight": 0.03527254382007369,
+      "signal_z": 1.174329161643982,
+      "close_pkr": 573
+    },
+    {
+      "symbol": "GGGL",
+      "weight": 0.034785796548959295,
+      "signal_z": 1.1661983728408813,
+      "close_pkr": 9.71000003814697
+    },
+    {
+      "symbol": "INIL",
+      "weight": 0.024557018932101278,
+      "signal_z": 0.9798492789268494,
+      "close_pkr": 185.39999389648438
+    },
+    {
+      "symbol": "OCTOPUS",
+      "weight": 0.018635336542389573,
+      "signal_z": 0.8535718321800232,
+      "close_pkr": 34.20000076293945
+    },
+    {
+      "symbol": "ANL",
+      "weight": 0.017204219556252783,
+      "signal_z": 0.8201417922973633,
+      "close_pkr": 11.03999996185303
+    },
+    {
+      "symbol": "MARI",
+      "weight": 0.016051137676535314,
+      "signal_z": 0.7921808958053589,
+      "close_pkr": 699.2999877929688
+    },
+    {
+      "symbol": "LCI",
+      "weight": 0.014104872641987688,
+      "signal_z": 0.7426018714904785,
+      "close_pkr": 241.5
+    },
+    {
+      "symbol": "TOMCL",
+      "weight": 0.013522748714019822,
+      "signal_z": 0.7271164059638977,
+      "close_pkr": 44.70000076293945
+    },
+    {
+      "symbol": "CRTM",
+      "weight": 0.013205990046250133,
+      "signal_z": 0.718549907207489,
+      "close_pkr": 74
+    }
+  ],
+  "trades": [
+    {
+      "side": "BUY",
+      "symbol": "CRTM",
+      "shares": 131,
+      "price_pkr": 74,
+      "notional_pkr": 9694,
+      "fees_pkr": 44.515324856929105
+    },
+    {
+      "side": "BUY",
+      "symbol": "TOMCL",
+      "shares": 302,
+      "price_pkr": 44.70000076293945,
+      "notional_pkr": 13499.400230407715,
+      "fees_pkr": 60.67700794912438
+    },
+    {
+      "side": "BUY",
+      "symbol": "LCI",
+      "shares": 58,
+      "price_pkr": 241.5,
+      "notional_pkr": 14007,
+      "fees_pkr": 63.84165250403579
+    },
+    {
+      "side": "BUY",
+      "symbol": "MARI",
+      "shares": 22,
+      "price_pkr": 699.2999877929688,
+      "notional_pkr": 15384.599731445312,
+      "fees_pkr": 68.54479239321378
+    },
+    {
+      "side": "BUY",
+      "symbol": "ANL",
+      "shares": 1558,
+      "price_pkr": 11.03999996185303,
+      "notional_pkr": 17200.31994056702,
+      "fees_pkr": 80.51607635716599
+    },
+    {
+      "side": "BUY",
+      "symbol": "OCTOPUS",
+      "shares": 544,
+      "price_pkr": 34.20000076293945,
+      "notional_pkr": 18604.800415039062,
+      "fees_pkr": 86.47941921433745
+    },
+    {
+      "side": "BUY",
+      "symbol": "INIL",
+      "shares": 132,
+      "price_pkr": 185.39999389648438,
+      "notional_pkr": 24472.799194335938,
+      "fees_pkr": 112.69710402708999
+    },
+    {
+      "side": "BUY",
+      "symbol": "GGGL",
+      "shares": 3582,
+      "price_pkr": 9.71000003814697,
+      "notional_pkr": 34781.22013664245,
+      "fees_pkr": 167.22628114997718
+    },
+    {
+      "side": "BUY",
+      "symbol": "MEBL",
+      "shares": 61,
+      "price_pkr": 573,
+      "notional_pkr": 34953,
+      "fees_pkr": 155.9726749594459
+    },
+    {
+      "side": "BUY",
+      "symbol": "FABL",
+      "shares": 361,
+      "price_pkr": 105.19999694824219,
+      "notional_pkr": 37977.19889831543,
+      "fees_pkr": 171.82314823319425
+    },
+    {
+      "side": "BUY",
+      "symbol": "SLGL",
+      "shares": 2484,
+      "price_pkr": 18.05999946594238,
+      "notional_pkr": 44861.03867340087,
+      "fees_pkr": 210.02250462722705
+    },
+    {
+      "side": "BUY",
+      "symbol": "IBLHL",
+      "shares": 1000,
+      "price_pkr": 58.2599983215332,
+      "notional_pkr": 58259.9983215332,
+      "fees_pkr": 278.36028487556837
+    },
+    {
+      "side": "BUY",
+      "symbol": "GCIL",
+      "shares": 1585,
+      "price_pkr": 38.61000061035156,
+      "notional_pkr": 61196.85096740723,
+      "fees_pkr": 282.05097903053985
+    },
+    {
+      "side": "BUY",
+      "symbol": "MUGHAL",
+      "shares": 664,
+      "price_pkr": 92.69999694824219,
+      "notional_pkr": 61552.79797363281,
+      "fees_pkr": 280.18504169711133
+    },
+    {
+      "side": "BUY",
+      "symbol": "CEPB",
+      "shares": 2165,
+      "price_pkr": 33.70000076293945,
+      "notional_pkr": 72960.50165176392,
+      "fees_pkr": 350.39809792308137
+    },
+    {
+      "side": "BUY",
+      "symbol": "SEARL",
+      "shares": 754,
+      "price_pkr": 100.3499984741211,
+      "notional_pkr": 75663.8988494873,
+      "fees_pkr": 341.3106410179203
+    },
+    {
+      "side": "BUY",
+      "symbol": "PAEL",
+      "shares": 2119,
+      "price_pkr": 47.16999816894531,
+      "notional_pkr": 99953.22611999512,
+      "fees_pkr": 450.13156482123804
+    },
+    {
+      "side": "BUY",
+      "symbol": "WAVES",
+      "shares": 8576,
+      "price_pkr": 11.65999984741211,
+      "notional_pkr": 99996.15869140625,
+      "fees_pkr": 472.7353223465061
+    },
+    {
+      "side": "BUY",
+      "symbol": "FLYNG",
+      "shares": 2061,
+      "price_pkr": 48.5099983215332,
+      "notional_pkr": 99979.10654067993,
+      "fees_pkr": 596.9569647570758
+    },
+    {
+      "side": "BUY",
+      "symbol": "TPLP",
+      "shares": 7530,
+      "price_pkr": 13.27999973297119,
+      "notional_pkr": 99998.39798927306,
+      "fees_pkr": 458.6568319561728
+    }
+  ],
+  "cost_model": "brokerage 25bps + salesTax 3.25bps + cdcPsxNccpl 1bp + spread 15bps + impact 50*sqrt(size/mdv) capped 250bps + CGT 15%",
+  "next_rebalance_date": "2026-07-21",
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AjzMhfiG4iAFQjwEGGMrSTeUtZWIVaNy0/ZftMI8CA3qujoykBPpyv6IRH38c9eLrv62nlLTeU7Mms8evdM/QjxBGpN09TwCOTdigRF6eUTAIPf4w0u+QyOLi1odHRwczovL2FsaWNlLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmc=",
+      "submitted_at": "2026-07-08T04:36:36.628Z",
+      "bytes_len": 137
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8Ah3g7BviyW1SAjwEJPVOb8SLwlszX0oUWagfWsI8CAFMCI26uw3+D0iVcdlL77cGQZj8Yll8kpwz33DqjNQuQjxBGpN09TwCEiRchLYz+5oAIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+      "submitted_at": "2026-07-08T04:36:36.759Z",
+      "bytes_len": 135
+    },
+    {
+      "calendar": "https://finney.calendar.eternitywall.com",
+      "receipt_b64": "8BAHN9+dO7LaywenqIc1AwHBCPEgRyogbo45xJ0m7vlNacqZ/+4/U+XpqVL7RZIfbh9yxQUI8QRqTdPU8AiHsfSjHMQNGwCD3+MNLvkMjikoaHR0cHM6Ly9maW5uZXkuY2FsZW5kYXIuZXRlcm5pdHl3YWxsLmNvbQ==",
+      "submitted_at": "2026-07-08T04:36:36.005Z",
+      "bytes_len": 121
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest d767b354ee08ce1cdeef54a93a607ebfcc662d16701a99777a6cd52464c74907 <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
