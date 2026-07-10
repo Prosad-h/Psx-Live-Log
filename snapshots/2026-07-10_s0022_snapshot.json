@@ -1,0 +1,31 @@
+{
+  "seq_id": 22,
+  "type": "snapshot",
+  "asof": "2026-07-10",
+  "prev_hash": "b8798a423bfae2ae08432365dbfc7d7ac32cf78a3a4694423920af791bdf78d9",
+  "app_ts": "2026-07-10T18:52:47.629Z",
+  "starting_pkr": 1000000,
+  "cash_pkr": 160,
+  "positions_value_pkr": 1005967,
+  "total_equity_pkr": 1006127,
+  "return_pct": 0.6127,
+  "unrealized_pnl_pkr": 10736,
+  "realized_pnl_pkr": -4610,
+  "positions_count": 20,
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8Aiz8AMIsDtaRgjwEAiCsG52WNg5I9vrIwHxJmoI8SBXtWg9XWkmm41g6nlBxCefjHmbOFG43tD8mVQOEM7xIAjxIJi1+F3cb/ZNTNh74DmvwsDtwuR0GLgBHJTJu2F/SkufCPAgYHTRzOL3w9j2dpTa0XfNFPAmC7bx7rw9E7l9yKRR0bgI8QRqUT+B8AjrYv0ZDuEd9wCD3+MNLvkMji4taHR0cHM6Ly9hbGljZS5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+      "submitted_at": "2026-07-10T18:52:49.718Z",
+      "bytes_len": 207
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AhHrGlOSg1JhQjwEP430KcmU8gXo6yBDi2aGLYI8SC+DLJYueIcP5OIXAdMhqMQ6qGR97UKoOWJS57j1XIe1QjwIGt9ZaEutcJP6LbVAg61ZLHzg982WHTdwUzEjO3++MwMCPEEalE/gfAIC4Zt0nOai5gAg9/jDS75DI4sK2h0dHBzOi8vYm9iLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmc=",
+      "submitted_at": "2026-07-10T18:52:49.653Z",
+      "bytes_len": 170
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest b29634952d70d6f5e5d114b2176cfbdde3c21c06a128e55a7c67694f3a440213 <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
