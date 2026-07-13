@@ -1,0 +1,32 @@
+{
+  "seq_id": 21,
+  "type": "account_deleted",
+  "asof": "2026-07-13",
+  "prev_hash": "373eb646e03f987ba9f19eb1ee4344eb5c36932d4e657f4cfc745d541a34a1aa",
+  "app_ts": "2026-07-13T17:22:09.477Z",
+  "account_id": 1,
+  "account_name": "Original Account",
+  "starting_pkr": 1000000,
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AgEx2377/5a4AjwEKpuKkZN4AY9Sz1ZC2Rqj1EI8SDFH46x4e/XGvpKw8h1aS0JD6VyenNsRxXFWk/wjrmdVAjxIMB8YvRsRvVSvImwp0nMzyoJH0Fh88req5VLmnMrgXEICPAg2xjiDPUeqDbdt//wh98ILgPMYn82TpyFE26U2ceq0b0I8QRqVR7C8AjucdRUXItCngCD3+MNLvkMji4taHR0cHM6Ly9hbGljZS5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+      "submitted_at": "2026-07-13T17:22:10.397Z",
+      "bytes_len": 207
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AjXww/zF1yoHgjwEBzgVgrAnD6Wt2aPtsg4+PEI8CB8zXx5l4xokzqYbohqLrOKalfuh9Zlt9Numtb+IMx2AQjxIPe3UhYTUcOVK1HKv1Q7TvBPZukyJZXAQPFUlOBj8uPUCPAgM0JRnq8q3UlrOyinEIatWRYzQOqwRgqYKXOf43tMGpYI8QRqVR7C8Ahx7cuZq/rcwwCD3+MNLvkMjiwraHR0cHM6Ly9ib2IuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw==",
+      "submitted_at": "2026-07-13T17:22:10.396Z",
+      "bytes_len": 205
+    },
+    {
+      "calendar": "https://finney.calendar.eternitywall.com",
+      "receipt_b64": "8BCsCsJwpumB/u3KjD1+53yMCPEgN3j53/ZJ4CSi5kHxYUJN6NbY1hKNpKckPjEIN+rX/EsI8CBNfLNsTv2HLs7LuYDMOFBRCMuTL9vkjXDrEIhFWn3lYAjwIAfQfWo7+Ojdfe063DeKmg7z9JX2bN9NrDz4BU5o77NWCPAgtjWl+2udjJqOQ19SXw6COWlmutbJUYJo5tNPkVVoUPMI8QRqVR7C8Ag7LkfOUCSu5wCD3+MNLvkMjikoaHR0cHM6Ly9maW5uZXkuY2FsZW5kYXIuZXRlcm5pdHl3YWxsLmNvbQ==",
+      "submitted_at": "2026-07-13T17:22:10.753Z",
+      "bytes_len": 226
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest e1df74df85713d09557dd250dfd01a4cdd2631c18c2ac63cc64e42c3ee5d4c91 <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
