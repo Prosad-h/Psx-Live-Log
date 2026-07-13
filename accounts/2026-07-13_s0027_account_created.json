@@ -1,0 +1,40 @@
+{
+  "seq_id": 27,
+  "type": "account_created",
+  "asof": "2026-07-13",
+  "prev_hash": "9524153ab062aaf27ed22246ecbdf9eb97ba1654345b1e1b127967a2ce7b7cd8",
+  "app_ts": "2026-07-13T17:06:43.993Z",
+  "account_id": 6,
+  "account_name": "Manual champion",
+  "starting_pkr": 1000000,
+  "strategy": {
+    "type": "champion",
+    "top_k": 25,
+    "max_weight": 0.25,
+    "min_signal_z": 0.5,
+    "weight_scheme": "conv_sharp",
+    "signal_ema": 10
+  },
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8Ain60Cu8OhgywjxIP+a/eMqwNiWd2E2ZWXARP7spIXnyfxOPV2xrjgQNotACPAQj4GwqWlxxoiOzKGX0obAvwjwILBnKK205MbQ8Lk3PU7n9Hd8wm//jYJtleMMgkZqCmX/CPAgiH05oH2+Qw9BDiBYs8IJ8qmT1MElWdJjx2ND6q0M2yUI8CDNPSgfGvu76QvZ5jzNEcHjFVwKvZ63PhnuObZTYSOMbQjxBGpVGyXwCGbT/U1MxZq1AIPf4w0u+QyOLi1odHRwczovL2FsaWNlLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmc=",
+      "submitted_at": "2026-07-13T17:06:45.742Z",
+      "bytes_len": 242
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8Aglfbncfo8DQgjwED/Z1MZ8a2VcK7IFXMG4PboI8SAufJ+UQPZ36h6tu9awb6LHnc34mVeTlSrTtVQWPODoXwjxBGpVGyTwCJ0Gt6Y3mWigAIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+      "submitted_at": "2026-07-13T17:06:44.789Z",
+      "bytes_len": 135
+    },
+    {
+      "calendar": "https://finney.calendar.eternitywall.com",
+      "receipt_b64": "8BAGzY2pYBp0t3bnrL6LC833CPAgUqry8Rl0I8W4UOboy35APHoVE6S4fFrXeiAUlvMcgpgI8SAAviW+H7Bto07RqgtYQvV2J1+WedrTXQ//jkpsNK9opwjwIKApaq2E8efdPikNErUcxDETtyF5nPMofH3fqlVDbbakCPEEalUbJPAIkNbWbgfukpQAg9/jDS75DI4pKGh0dHBzOi8vZmlubmV5LmNhbGVuZGFyLmV0ZXJuaXR5d2FsbC5jb20=",
+      "submitted_at": "2026-07-13T17:06:44.856Z",
+      "bytes_len": 191
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest 3c541dd9b52530a0c9fd35e0a202bb86f9909472b4cddda8bd4ee9d139d1d7c6 <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
