@@ -1,0 +1,37 @@
+{
+  "seq_id": 26,
+  "type": "snapshot",
+  "asof": "2026-07-13",
+  "prev_hash": "d14691b223ec981676ee8a89f8d4f9153db01a780de57ae128f62d374b63256f",
+  "app_ts": "2026-07-13T13:06:01.553Z",
+  "starting_pkr": 1000000,
+  "cash_pkr": 160,
+  "positions_value_pkr": 986238,
+  "total_equity_pkr": 986398,
+  "return_pct": -1.3602,
+  "unrealized_pnl_pkr": -8993,
+  "realized_pnl_pkr": -4610,
+  "positions_count": 20,
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AgqzKAmrl6/6QjwEJtwHO+n4UpQ71rK8kHUbBAI8SC5MEw/FbzJzE50H1NwMU8ADdoGCkWSeo1QjNcK0uGQVwjwIDpdjc34+DqoVOx0pLVkT4Atd3A4BIW6yUCR9C9LJdgZCPEEalTivPAIhZLeNi5dgvwAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw==",
+      "submitted_at": "2026-07-13T13:06:04.725Z",
+      "bytes_len": 172
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AiT/f2QK4tZzQjwEBEcP8GkgaxtHw8ojBYUuNwI8CCHwZK4RKxrfCaYdI0OIyVL5uprlRSUKIDaq11nvJfh2QjxBGpU4rzwCNTY/mtEYmBOAIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+      "submitted_at": "2026-07-13T13:06:04.787Z",
+      "bytes_len": 135
+    },
+    {
+      "calendar": "https://finney.calendar.eternitywall.com",
+      "receipt_b64": "8BCBNuEPxzDIbb7QGE4CXIEOCPEgnV470WTNgQvNlQUf/e3oU0YX+f3N14NPVOCa4q2vSFYI8SChMmR91Au5tjy/1ywOq8caWk//eIY5s0HuDMGolSw9mwjwIBSFPJo83/YkQOvE3MqG+J7kmqUQlrMOuV8dyKz/UiAuCPAgssCJhignUeC3Rd2eZY9c8SUy+Hs8OnTKXlqnVFUkpIII8QRqVOK78AggFMp0yAEPsACD3+MNLvkMjikoaHR0cHM6Ly9maW5uZXkuY2FsZW5kYXIuZXRlcm5pdHl3YWxsLmNvbQ==",
+      "submitted_at": "2026-07-13T13:06:03.117Z",
+      "bytes_len": 226
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest ad4c9a82bc43353260316409f043073923c80ecc02904fc9e24d6c813f1ed692 <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
