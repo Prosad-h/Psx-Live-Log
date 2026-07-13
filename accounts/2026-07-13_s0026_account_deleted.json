@@ -1,0 +1,32 @@
+{
+  "seq_id": 26,
+  "type": "account_deleted",
+  "asof": "2026-07-13",
+  "prev_hash": "ddb76964a2761b3d8e26f5826eba3daf89561e5c67d237187f29c5bedf6f0604",
+  "app_ts": "2026-07-13T17:06:21.925Z",
+  "account_id": 1,
+  "account_name": "Original Account",
+  "starting_pkr": 1000000,
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8Ag4QoOv7R4eHAjwEMAQkZtkYVLiQ4JNfj7g1sII8SBv8wP+FHZvooFiC+Lv67z5TE4AjXPnUraX9T88r7w1WAjxIL2ldY7T0zm3tqh3rRGD6EAZuwJoVIAQoTiI98k2YRuICPEEalUbDvAIyqy2VM+ZbPYAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw==",
+      "submitted_at": "2026-07-13T17:06:22.681Z",
+      "bytes_len": 172
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AgA5wyirGUIOQjxIOxgK5s4/QB5Zg6lC7K4dPRvQFIffTKeVTKDYUKuVhRACPAQ4jG1+Kyp0J1xRXJG0AaCsAjwIFqd2NS/nqEMv7W+9sERiCfFwYElhPi3VOBZmnngo6NKCPEgQOY4v/KyghoQOCaQZjkc4u68BaXfuX5qBqKcd+SOyTsI8CDozxu+JMjtIFmv8VV0QiPOxV6vGqNeDC795FoMTzCVLQjxBGpVGw7wCP3mzHwfQWyHAIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+      "submitted_at": "2026-07-13T17:06:22.682Z",
+      "bytes_len": 240
+    },
+    {
+      "calendar": "https://finney.calendar.eternitywall.com",
+      "receipt_b64": "8BAyDAyZ6SDQ7/eYW9lvAj2QCPAgOOltBGJA/WQ72qYzZV1IfGZytiQQOKVZkxTLjblKD5QI8CDWmAyTVtJwfZgm4YEBiha6gMmnRZq0gX3IIKsUOZJuVQjxIItpqHEfzre09ytC8FzHMHlkYbwZJ+ELiM6PJm5f+hUoCPAgMLeD+WlvJuu6EDaqP1Fd/4MdNhVPe9wNW3ReS/qCVLII8QRqVRsO8Ajy8sI40nNleQCD3+MNLvkMjikoaHR0cHM6Ly9maW5uZXkuY2FsZW5kYXIuZXRlcm5pdHl3YWxsLmNvbQ==",
+      "submitted_at": "2026-07-13T17:06:22.733Z",
+      "bytes_len": 226
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest 9524153ab062aaf27ed22246ecbdf9eb97ba1654345b1e1b127967a2ce7b7cd8 <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
