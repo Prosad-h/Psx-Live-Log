@@ -1,0 +1,461 @@
+{
+  "seq_id": 24,
+  "type": "rebalance",
+  "asof": "2026-07-13",
+  "prev_hash": "0ca3c4fc2b5e0a832121f125adf8401125f535a86eee65178f2ab3754e5d5263",
+  "app_ts": "2026-07-13T18:00:02.153Z",
+  "account_id": 2,
+  "account_name": "Baseline",
+  "summary": {
+    "trades": 20,
+    "buys_pkr": 994933,
+    "sells_pkr": 0,
+    "fees_pkr": 4583,
+    "cash_after": 484
+  },
+  "portfolio_before": {
+    "starting_pkr": 1000000,
+    "cash_pkr": 1000000,
+    "positions_value_pkr": 0,
+    "total_equity_pkr": 1000000,
+    "return_pct": 0,
+    "positions": []
+  },
+  "portfolio_after": {
+    "starting_pkr": 1000000,
+    "cash_pkr": 484,
+    "positions_value_pkr": 994933,
+    "total_equity_pkr": 995417,
+    "return_pct": -0.4583,
+    "positions": [
+      {
+        "symbol": "CEPB",
+        "shares": 3277,
+        "avg_cost_pkr": 30.51,
+        "last_price_pkr": 30.51
+      },
+      {
+        "symbol": "FCCL",
+        "shares": 593,
+        "avg_cost_pkr": 54.22,
+        "last_price_pkr": 54.22
+      },
+      {
+        "symbol": "GHNI",
+        "shares": 61,
+        "avg_cost_pkr": 1233.72,
+        "last_price_pkr": 1233.72
+      },
+      {
+        "symbol": "GLAXO",
+        "shares": 85,
+        "avg_cost_pkr": 366.07,
+        "last_price_pkr": 366.07
+      },
+      {
+        "symbol": "HINOON",
+        "shares": 31,
+        "avg_cost_pkr": 1001.07,
+        "last_price_pkr": 1001.07
+      },
+      {
+        "symbol": "HUBC",
+        "shares": 163,
+        "avg_cost_pkr": 222.78,
+        "last_price_pkr": 222.78
+      },
+      {
+        "symbol": "IBLHL",
+        "shares": 432,
+        "avg_cost_pkr": 53.84,
+        "last_price_pkr": 53.84
+      },
+      {
+        "symbol": "INIL",
+        "shares": 581,
+        "avg_cost_pkr": 171.92,
+        "last_price_pkr": 171.92
+      },
+      {
+        "symbol": "ISL",
+        "shares": 670,
+        "avg_cost_pkr": 89.09,
+        "last_price_pkr": 89.09
+      },
+      {
+        "symbol": "KTML",
+        "shares": 540,
+        "avg_cost_pkr": 50.34,
+        "last_price_pkr": 50.34
+      },
+      {
+        "symbol": "LCI",
+        "shares": 126,
+        "avg_cost_pkr": 234.6,
+        "last_price_pkr": 234.6
+      },
+      {
+        "symbol": "LOTCHEM",
+        "shares": 1602,
+        "avg_cost_pkr": 31.63,
+        "last_price_pkr": 31.63
+      },
+      {
+        "symbol": "MARI",
+        "shares": 66,
+        "avg_cost_pkr": 669.91,
+        "last_price_pkr": 669.91
+      },
+      {
+        "symbol": "NML",
+        "shares": 448,
+        "avg_cost_pkr": 151.47,
+        "last_price_pkr": 151.47
+      },
+      {
+        "symbol": "PIBTL",
+        "shares": 1514,
+        "avg_cost_pkr": 17.59,
+        "last_price_pkr": 17.59
+      },
+      {
+        "symbol": "PIOC",
+        "shares": 371,
+        "avg_cost_pkr": 269.54,
+        "last_price_pkr": 269.54
+      },
+      {
+        "symbol": "SEARL",
+        "shares": 411,
+        "avg_cost_pkr": 94.11,
+        "last_price_pkr": 94.11
+      },
+      {
+        "symbol": "TOMCL",
+        "shares": 1414,
+        "avg_cost_pkr": 40.04,
+        "last_price_pkr": 40.04
+      },
+      {
+        "symbol": "TPLP",
+        "shares": 3040,
+        "avg_cost_pkr": 11.75,
+        "last_price_pkr": 11.75
+      },
+      {
+        "symbol": "TREET",
+        "shares": 1201,
+        "avg_cost_pkr": 24.24,
+        "last_price_pkr": 24.24
+      }
+    ]
+  },
+  "picks": [
+    {
+      "symbol": "CEPB",
+      "weight": 0.1,
+      "signal_z": 2.9483840465545654,
+      "close_pkr": 30.51000022888184
+    },
+    {
+      "symbol": "PIOC",
+      "weight": 0.1,
+      "signal_z": 1.566022515296936,
+      "close_pkr": 269.5400085449219
+    },
+    {
+      "symbol": "INIL",
+      "weight": 0.1,
+      "signal_z": 1.5501229763031006,
+      "close_pkr": 171.9199981689453
+    },
+    {
+      "symbol": "GHNI",
+      "weight": 0.075860416116052,
+      "signal_z": 1.3401670455932617,
+      "close_pkr": 1233.719970703125
+    },
+    {
+      "symbol": "NML",
+      "weight": 0.06789787152818234,
+      "signal_z": 1.2678836584091187,
+      "close_pkr": 151.47000122070312
+    },
+    {
+      "symbol": "ISL",
+      "weight": 0.059727479002618065,
+      "signal_z": 1.189154863357544,
+      "close_pkr": 89.08999633789062
+    },
+    {
+      "symbol": "TOMCL",
+      "weight": 0.056635333278203644,
+      "signal_z": 1.1579639911651611,
+      "close_pkr": 40.04000091552734
+    },
+    {
+      "symbol": "LOTCHEM",
+      "weight": 0.050687948918358185,
+      "signal_z": 1.0954780578613281,
+      "close_pkr": 31.6299991607666
+    },
+    {
+      "symbol": "MARI",
+      "weight": 0.04472711673863323,
+      "signal_z": 1.0290507078170776,
+      "close_pkr": 669.9099731445312
+    },
+    {
+      "symbol": "SEARL",
+      "weight": 0.038718064248754666,
+      "signal_z": 0.9574324488639832,
+      "close_pkr": 94.11000061035156
+    },
+    {
+      "symbol": "HUBC",
+      "weight": 0.03645493028635401,
+      "signal_z": 0.9290294051170349,
+      "close_pkr": 222.77999877929688
+    },
+    {
+      "symbol": "TPLP",
+      "weight": 0.03572909405441227,
+      "signal_z": 0.9197341799736023,
+      "close_pkr": 11.75
+    },
+    {
+      "symbol": "FCCL",
+      "weight": 0.03215582625957499,
+      "signal_z": 0.8725315928459167,
+      "close_pkr": 54.22000122070312
+    },
+    {
+      "symbol": "GLAXO",
+      "weight": 0.03139097752368579,
+      "signal_z": 0.8620922565460205,
+      "close_pkr": 366.07000732421875
+    },
+    {
+      "symbol": "HINOON",
+      "weight": 0.03126594212716286,
+      "signal_z": 0.8603736162185669,
+      "close_pkr": 1001.0700073242188
+    },
+    {
+      "symbol": "LCI",
+      "weight": 0.029598802749085395,
+      "signal_z": 0.837121307849884,
+      "close_pkr": 234.60000610351562
+    },
+    {
+      "symbol": "TREET",
+      "weight": 0.029116231410120923,
+      "signal_z": 0.8302691578865051,
+      "close_pkr": 24.23999977111816
+    },
+    {
+      "symbol": "KTML",
+      "weight": 0.027191472546154352,
+      "signal_z": 0.8023570775985718,
+      "close_pkr": 50.34000015258789
+    },
+    {
+      "symbol": "PIBTL",
+      "weight": 0.026644256010567968,
+      "signal_z": 0.7942425012588501,
+      "close_pkr": 17.59000015258789
+    },
+    {
+      "symbol": "IBLHL",
+      "weight": 0.026198236908281883,
+      "signal_z": 0.7875667214393616,
+      "close_pkr": 53.84000015258789
+    }
+  ],
+  "trades": [
+    {
+      "side": "BUY",
+      "symbol": "IBLHL",
+      "shares": 432,
+      "price_pkr": 53.84000015258789,
+      "notional_pkr": 23258.88006591797,
+      "fees_pkr": 108.10670798248582
+    },
+    {
+      "side": "BUY",
+      "symbol": "PIBTL",
+      "shares": 1514,
+      "price_pkr": 17.59000015258789,
+      "notional_pkr": 26631.260231018066,
+      "fees_pkr": 119.23812744444905
+    },
+    {
+      "side": "BUY",
+      "symbol": "KTML",
+      "shares": 540,
+      "price_pkr": 50.34000015258789,
+      "notional_pkr": 27183.60008239746,
+      "fees_pkr": 126.39137768616125
+    },
+    {
+      "side": "BUY",
+      "symbol": "TREET",
+      "shares": 1201,
+      "price_pkr": 24.23999977111816,
+      "notional_pkr": 29112.23972511291,
+      "fees_pkr": 131.29494431077936
+    },
+    {
+      "side": "BUY",
+      "symbol": "LCI",
+      "shares": 126,
+      "price_pkr": 234.60000610351562,
+      "notional_pkr": 29559.60076904297,
+      "fees_pkr": 136.53749147526037
+    },
+    {
+      "side": "BUY",
+      "symbol": "HINOON",
+      "shares": 31,
+      "price_pkr": 1001.0700073242188,
+      "notional_pkr": 31033.17022705078,
+      "fees_pkr": 142.66478838372015
+    },
+    {
+      "side": "BUY",
+      "symbol": "GLAXO",
+      "shares": 85,
+      "price_pkr": 366.07000732421875,
+      "notional_pkr": 31115.950622558594,
+      "fees_pkr": 140.48386768169945
+    },
+    {
+      "side": "BUY",
+      "symbol": "FCCL",
+      "shares": 593,
+      "price_pkr": 54.22000122070312,
+      "notional_pkr": 32152.46072387695,
+      "fees_pkr": 143.87106684391807
+    },
+    {
+      "side": "BUY",
+      "symbol": "TPLP",
+      "shares": 3040,
+      "price_pkr": 11.75,
+      "notional_pkr": 35720,
+      "fees_pkr": 161.3215225841053
+    },
+    {
+      "side": "BUY",
+      "symbol": "HUBC",
+      "shares": 163,
+      "price_pkr": 222.77999877929688,
+      "notional_pkr": 36313.13980102539,
+      "fees_pkr": 161.95717283390061
+    },
+    {
+      "side": "BUY",
+      "symbol": "SEARL",
+      "shares": 411,
+      "price_pkr": 94.11000061035156,
+      "notional_pkr": 38679.21025085449,
+      "fees_pkr": 173.53046145372662
+    },
+    {
+      "side": "BUY",
+      "symbol": "MARI",
+      "shares": 66,
+      "price_pkr": 669.9099731445312,
+      "notional_pkr": 44214.05822753906,
+      "fees_pkr": 197.87445170865453
+    },
+    {
+      "side": "BUY",
+      "symbol": "LOTCHEM",
+      "shares": 1602,
+      "price_pkr": 31.6299991607666,
+      "notional_pkr": 50671.258655548096,
+      "fees_pkr": 229.69516394781039
+    },
+    {
+      "side": "BUY",
+      "symbol": "TOMCL",
+      "shares": 1414,
+      "price_pkr": 40.04000091552734,
+      "notional_pkr": 56616.56129455566,
+      "fees_pkr": 258.6339101139456
+    },
+    {
+      "side": "BUY",
+      "symbol": "ISL",
+      "shares": 670,
+      "price_pkr": 89.08999633789062,
+      "notional_pkr": 59690.29754638672,
+      "fees_pkr": 277.89118195478585
+    },
+    {
+      "side": "BUY",
+      "symbol": "NML",
+      "shares": 448,
+      "price_pkr": 151.47000122070312,
+      "notional_pkr": 67858.560546875,
+      "fees_pkr": 305.19935193925915
+    },
+    {
+      "side": "BUY",
+      "symbol": "GHNI",
+      "shares": 61,
+      "price_pkr": 1233.719970703125,
+      "notional_pkr": 75256.91821289062,
+      "fees_pkr": 339.5640215222885
+    },
+    {
+      "side": "BUY",
+      "symbol": "INIL",
+      "shares": 581,
+      "price_pkr": 171.9199981689453,
+      "notional_pkr": 99885.51893615723,
+      "fees_pkr": 478.8757304620401
+    },
+    {
+      "side": "BUY",
+      "symbol": "PIOC",
+      "shares": 371,
+      "price_pkr": 269.5400085449219,
+      "notional_pkr": 99999.34317016602,
+      "fees_pkr": 466.67015314973054
+    },
+    {
+      "side": "BUY",
+      "symbol": "CEPB",
+      "shares": 3277,
+      "price_pkr": 30.51000022888184,
+      "notional_pkr": 99981.27075004579,
+      "fees_pkr": 483.0109111177695
+    }
+  ],
+  "cost_model": "brokerage 25bps + salesTax 3.25bps + cdcPsxNccpl 1bp + spread 15bps + impact 50*sqrt(size/mdv) capped 250bps + CGT 15%",
+  "next_rebalance_date": "2026-07-27",
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8Ai3O+RKQNkHEgjwEGPNsYmfF2/j2ocS3w0G2ZUI8CAV6LV4JhoO/xQZr7ngnbRXYOjexWQNZJuvN2vyeZdTagjxIACUNDKbZg1D6a5Me8unn7HVfpBSHNpYFJ2EC2tyAfDnCPAguByboAeHZTSZcPgzjzc/7JwVdzQg8r2tJ+OXSP5eRy8I8CAAt13YaE5QRfYk6IdeovY9iByFukYLvKaVE+ns1hCzBAjxBGpVJ6TwCAoskoZlaXaRAIPf4w0u+QyOLi1odHRwczovL2FsaWNlLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmc=",
+      "submitted_at": "2026-07-13T18:00:04.597Z",
+      "bytes_len": 242
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AjutsdLUdQ9AgjwIGC7cHHK6ggtGXQY1NiMGpEe0kW6e2xF4O9uAnC6wG/zCPEgOZVaC2ha4oZCOEF5NVxzHRL4lgHCgm6YEdaD4K5eZcYI8BCbj7ERzX2ozSIwU/dRoogdCPEgSVeUE3qyXQ8dNTxa3gPcRC0C0OU+8dnzbn8EpWOjRIUI8SDVUgo+PpWFpnzSBZuKh4ZEslgDjCxhl+edFRHoBYOUSAjxBGpVJ6PwCGoZN815PxH+AIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+      "submitted_at": "2026-07-13T18:00:03.249Z",
+      "bytes_len": 240
+    },
+    {
+      "calendar": "https://finney.calendar.eternitywall.com",
+      "receipt_b64": "8BAMR1rd1sVLob7/jeHb537gCPAgBGtujJ9tMbeqZqhpFc03fZ7uhCU9G21D1SkwC42st+4I8SBuokipa8u+oldEb46WDFtyeokoHJhDYkBxvNRn1AJSMgjxIGsOX9CeeoFFfT61zl+2jCR0x9xDBoPA/P/QlW6BH9L5CPEEalUnpPAIRgQVDcCgADAAg9/jDS75DI4pKGh0dHBzOi8vZmlubmV5LmNhbGVuZGFyLmV0ZXJuaXR5d2FsbC5jb20=",
+      "submitted_at": "2026-07-13T18:00:04.315Z",
+      "bytes_len": 191
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest 982ca192ecc4eebc93ce2444b9e9e3f42a1bbe610c0bf094ad6d461bc1aaf5bc <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
