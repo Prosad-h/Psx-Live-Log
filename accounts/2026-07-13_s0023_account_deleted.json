@@ -1,0 +1,32 @@
+{
+  "seq_id": 23,
+  "type": "account_deleted",
+  "asof": "2026-07-13",
+  "prev_hash": "a7cbb1daff7282705554bbddc04308ba59987358085abbbe9f37af2464e7a86f",
+  "app_ts": "2026-07-13T17:05:15.612Z",
+  "account_id": 3,
+  "account_name": "Aggressive",
+  "starting_pkr": 1000000,
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AguCDVxzk8bUgjwECSlJklYcrcYvddIVxaJSrII8CDsjUqkq0E3DpLeS+xuR1ktk+murSSXceTFmz382D5aWAjxINQvzI2xlGpjCFhSqM2sGpaL9E+e27eiASi07K8hOmWZCPEgt7g8iRD+P3G4D61aQOsr26pllfOZ/EdCDjle6Y7ooisI8QRqVRrM8AiCirG1h9TYCQCD3+MNLvkMji4taHR0cHM6Ly9hbGljZS5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+      "submitted_at": "2026-07-13T17:05:16.345Z",
+      "bytes_len": 207
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AgvOuhnLllomgjwEKwTb5IWjbwXZctIiiy2eq0I8SBsmXg4AXO/vx55K4y6WLcPk6xVVehCfdl7Qss12y6TEQjxIIubcC2a9giMUzZcAOKDvb6HifE+/afq9nnEmxG14jT7CPAg/ezMX4zeLh1BS7jXMq/1HwBUwCoFCPKbktayuTnTKhQI8QRqVRrM8AgjRSONaVbWSgCD3+MNLvkMjiwraHR0cHM6Ly9ib2IuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw==",
+      "submitted_at": "2026-07-13T17:05:16.437Z",
+      "bytes_len": 205
+    },
+    {
+      "calendar": "https://finney.calendar.eternitywall.com",
+      "receipt_b64": "8BAAaEyw5K09gJTv3u4rHng1CPAgLBFqqFNOxfgcoKc5SV8wjstGHKjOeBBo92leuesE3EQI8CAr0JETbwnt6iLoieYfuGdKHxIcgpr57tFQXOND+wiXEAjxIMGD2JHAAiMAMAikZAVeIE5ia5hAr3ghnZ1Jbnc2TrDCCPEEalUazPAIroTdt2XrWNIAg9/jDS75DI4pKGh0dHBzOi8vZmlubmV5LmNhbGVuZGFyLmV0ZXJuaXR5d2FsbC5jb20=",
+      "submitted_at": "2026-07-13T17:05:16.281Z",
+      "bytes_len": 191
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest 51c14ecde13d30323d9114e2d7a18457c97fc09d50a4846e358f6bb7f9c88527 <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
