@@ -1,0 +1,37 @@
+{
+  "seq_id": 24,
+  "type": "snapshot",
+  "asof": "2026-07-13",
+  "prev_hash": "b54f5acc5b8a8e0cc06d9b375b997a4bdc9389ab77e66c0ea05cf9c6027a9ae1",
+  "app_ts": "2026-07-13T07:08:06.165Z",
+  "starting_pkr": 1000000,
+  "cash_pkr": 160,
+  "positions_value_pkr": 991315,
+  "total_equity_pkr": 991474,
+  "return_pct": -0.8526,
+  "unrealized_pnl_pkr": -3916,
+  "realized_pnl_pkr": -4610,
+  "positions_count": 20,
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8Ahr7ezbF8ep2QjxIHs5Cr2xrJ6C+URMlpIQgMHw+pTKCfhbULZg1c/3AW96CPAQfempzpiRjQvEYvQJh3uxAgjxIOGmMdiAMMExKxWgWf8e0ZSOZZTFm64Cd/No8PN30ssDCPEgmpzsx+68Slm6pePm/scxzRvF/4QSeObGBlujVOrorHMI8QRqVI7Y8AhFTNPmbMf8KQCD3+MNLvkMji4taHR0cHM6Ly9hbGljZS5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+      "submitted_at": "2026-07-13T07:08:08.386Z",
+      "bytes_len": 207
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8Ag1Ikg2npP46gjxINzfZwG5mMbdlmV0JGxqU/0DkbIRfQGQCqH/ltiHANqhCPAgv+knQa+S1fDiUtrKegv9uNWpK5u1yhhQ1WcEHWyorxII8CDUnc/TdpnfxCLpwPZ/XPhJRdeAOwUMuiy5osDCcHs9BgjwEDD2L4E4qu8QIENhHz4Sy3wI8CAigDJiof/U0mxVxdzocNO1B8+lz27LlPrGHChPQVhxQgjwIMzbrizeCAQYkal/s2iDDo5vSx5oGZOLfZHhG3HREe60CPEgyqsdyceonHTRZ9PzK++KxI685KdUY1JlM1aeoNXP5fEI8QRqVI7X8AiD1By17VaN/wCD3+MNLvkMjiwraHR0cHM6Ly9ib2IuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw==",
+      "submitted_at": "2026-07-13T07:08:07.586Z",
+      "bytes_len": 310
+    },
+    {
+      "calendar": "https://finney.calendar.eternitywall.com",
+      "receipt_b64": "8BCt9LxaFSTpn1SmvAQpgLvfCPEgHF7McBnVilX4EIGnaYkmtqMIOFrdJfF24vwaAPwX2ncI8QRqVI7X8Agcv5XDPtjJcACD3+MNLvkMjikoaHR0cHM6Ly9maW5uZXkuY2FsZW5kYXIuZXRlcm5pdHl3YWxsLmNvbQ==",
+      "submitted_at": "2026-07-13T07:08:07.536Z",
+      "bytes_len": 121
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest abe98df1ba5c18c5d70196249f3fd205ba516eff666750762ac468fd89518966 <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
