@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-13T17:09:21.038Z",
-  "head_hash": "b3e314a81dd5d31ff9a955c43726d23111c66856b42f7b36b88b498df61a4c2c",
-  "seq_id": 28,
-  "total_records": 28,
+  "updated_at": "2026-07-13T17:22:13.172Z",
+  "head_hash": "e1df74df85713d09557dd250dfd01a4cdd2631c18c2ac63cc64e42c3ee5d4c91",
+  "seq_id": 21,
+  "total_records": 21,
   "first_published_ts": "2026-07-06T17:02:42.948Z",
-  "last_published_ts": "2026-07-13T17:09:16.587Z",
+  "last_published_ts": "2026-07-13T17:22:09.477Z",
   "recent": [
     {
       "seq_id": 1,
@@ -188,75 +188,12 @@
     },
     {
       "seq_id": 21,
-      "type": "account_created",
-      "asof": "2026-07-13",
-      "path": "accounts/2026-07-13_s0021_account_created.json",
-      "sha": "3f0596fa3a704f124549f654b4e805ecbdf0d6a8",
-      "hash": "6c5380c890b59753c7e42ed8b8fec572e7a46d319792c30f1646b7437e2e1845",
-      "ts": "2026-07-13T17:04:11.871Z"
-    },
-    {
-      "seq_id": 22,
-      "type": "account_created",
-      "asof": "2026-07-13",
-      "path": "accounts/2026-07-13_s0022_account_created.json",
-      "sha": "9223330730f2d9751c790d0974cdf3c6784f2e97",
-      "hash": "a7cbb1daff7282705554bbddc04308ba59987358085abbbe9f37af2464e7a86f",
-      "ts": "2026-07-13T17:04:56.277Z"
-    },
-    {
-      "seq_id": 23,
       "type": "account_deleted",
       "asof": "2026-07-13",
-      "path": "accounts/2026-07-13_s0023_account_deleted.json",
-      "sha": "04c96b681a5c03b7509ff8be9e4a0c10ad1fac77",
-      "hash": "51c14ecde13d30323d9114e2d7a18457c97fc09d50a4846e358f6bb7f9c88527",
-      "ts": "2026-07-13T17:05:15.612Z"
-    },
-    {
-      "seq_id": 24,
-      "type": "account_created",
-      "asof": "2026-07-13",
-      "path": "accounts/2026-07-13_s0024_account_created.json",
-      "sha": "d8d09b869f38c66763e1c216496cc8d77984a881",
-      "hash": "4a6f884c9dc9ac58d39dc5c2c10f835869afaa04734c211c4ec18cf8a82fa1bc",
-      "ts": "2026-07-13T17:05:28.670Z"
-    },
-    {
-      "seq_id": 25,
-      "type": "account_created",
-      "asof": "2026-07-13",
-      "path": "accounts/2026-07-13_s0025_account_created.json",
-      "sha": "df0e1f7fade565fb5f24415a8bc69aec3e660fef",
-      "hash": "ddb76964a2761b3d8e26f5826eba3daf89561e5c67d237187f29c5bedf6f0604",
-      "ts": "2026-07-13T17:06:02.313Z"
-    },
-    {
-      "seq_id": 26,
-      "type": "account_deleted",
-      "asof": "2026-07-13",
-      "path": "accounts/2026-07-13_s0026_account_deleted.json",
-      "sha": "bf811c1b757d56e62cf8b0b74a137a545e541044",
-      "hash": "9524153ab062aaf27ed22246ecbdf9eb97ba1654345b1e1b127967a2ce7b7cd8",
-      "ts": "2026-07-13T17:06:21.925Z"
-    },
-    {
-      "seq_id": 27,
-      "type": "account_created",
-      "asof": "2026-07-13",
-      "path": "accounts/2026-07-13_s0027_account_created.json",
-      "sha": "6e8cd95617da9bee3e12c97d0e80acb6b4402217",
-      "hash": "3c541dd9b52530a0c9fd35e0a202bb86f9909472b4cddda8bd4ee9d139d1d7c6",
-      "ts": "2026-07-13T17:06:43.993Z"
-    },
-    {
-      "seq_id": 28,
-      "type": "snapshot",
-      "asof": "2026-07-13",
-      "path": "snapshots/2026-07-13_s0028_snapshot.json",
-      "sha": "5bd4f2cc660c0080018378b03bdbfda1b35ab2df",
-      "hash": "b3e314a81dd5d31ff9a955c43726d23111c66856b42f7b36b88b498df61a4c2c",
-      "ts": "2026-07-13T17:09:16.587Z"
+      "path": "accounts/2026-07-13_s0021_account_deleted.json",
+      "sha": "527302d4cea55b05b86bd7ef961690a9784a8063",
+      "hash": "e1df74df85713d09557dd250dfd01a4cdd2631c18c2ac63cc64e42c3ee5d4c91",
+      "ts": "2026-07-13T17:22:09.477Z"
     }
   ],
   "verification": {
