@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-13T17:25:36.513Z",
-  "head_hash": "f9d1c3935c7f2b9f3e636fa761b1c504eed9739744537c50ddc66683b1c25812",
-  "seq_id": 22,
-  "total_records": 22,
+  "updated_at": "2026-07-13T17:58:07.108Z",
+  "head_hash": "0ca3c4fc2b5e0a832121f125adf8401125f535a86eee65178f2ab3754e5d5263",
+  "seq_id": 23,
+  "total_records": 23,
   "first_published_ts": "2026-07-06T17:02:42.948Z",
-  "last_published_ts": "2026-07-13T17:25:32.637Z",
+  "last_published_ts": "2026-07-13T17:58:01.237Z",
   "recent": [
     {
       "seq_id": 1,
@@ -203,6 +203,15 @@
       "sha": "bfb99fad243423104791b7cd4831e42052bd26da",
       "hash": "f9d1c3935c7f2b9f3e636fa761b1c504eed9739744537c50ddc66683b1c25812",
       "ts": "2026-07-13T17:25:32.637Z"
+    },
+    {
+      "seq_id": 23,
+      "type": "rebalance",
+      "asof": "2026-07-13",
+      "path": "rebalances/2026-07-13_s0023_rebalance.json",
+      "sha": "d04a4e4e8ffdbc5468cc73cf65c10ec92af9989e",
+      "hash": "0ca3c4fc2b5e0a832121f125adf8401125f535a86eee65178f2ab3754e5d5263",
+      "ts": "2026-07-13T17:58:01.237Z"
     }
   ],
   "verification": {
