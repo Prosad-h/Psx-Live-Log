@@ -1,0 +1,40 @@
+{
+  "seq_id": 25,
+  "type": "account_created",
+  "asof": "2026-07-13",
+  "prev_hash": "4a6f884c9dc9ac58d39dc5c2c10f835869afaa04734c211c4ec18cf8a82fa1bc",
+  "app_ts": "2026-07-13T17:06:02.313Z",
+  "account_id": 5,
+  "account_name": "Aggressive acc",
+  "starting_pkr": 1000000,
+  "strategy": {
+    "type": "aggressive",
+    "top_k": 25,
+    "max_weight": 0.25,
+    "min_signal_z": 0.75,
+    "weight_scheme": "conv_sharp",
+    "signal_ema": 12
+  },
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AjAk2HDBLMoFwjxIHM494bUUQqAiFAbVkFxVtX67SfpwvE1ZO+Rdlx0JUnmCPAQhxk+WXxDP3X69Q8zppwJawjwIJ+2SYNbzR9yFytu4+OdiNsRQuP1KyH/3cibaXqIzPbpCPEgivpoCqRKJLd7jvitw6yInut8TYnx91PvxGoTX6Kzf5kI8CChNREHtThMcKfpQ/C1UwbbyHX4Jw2R/64pWzExDVRNCQjxBGpVGvvwCE+0OaHuDgLEAIPf4w0u+QyOLi1odHRwczovL2FsaWNlLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmc=",
+      "submitted_at": "2026-07-13T17:06:03.524Z",
+      "bytes_len": 242
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AhAcWrbmCrUegjwINn1k+WZVcaHi2hljDuMAxDLQ0fB06YsovZTHMnJdmPGCPEgy/z5pMxQiDHllEH0kvafsMix2WmPBhl8aIxbTLvNh6EI8BApmB9R6Txty08Umkkyz7/SCPEgNBDo+G20ufFNUJQjTlTQfaILNJJAUHvwXXHD+poijjsI8SChC6pPuA5QAW6qlXwhiZ2l4JxaxUzRkjV7qIbeA7WJ+gjxBGpVGvrwCHTGFY8u1iBzAIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+      "submitted_at": "2026-07-13T17:06:02.617Z",
+      "bytes_len": 240
+    },
+    {
+      "calendar": "https://finney.calendar.eternitywall.com",
+      "receipt_b64": "8BBdQriHux3qQAGVN7pCOysKCPAg+tk47s0V9ZAkKX1z+RIDIgbfXwDrLvr0c5SR3plLBhYI8CB0IKZUtHNCrD+DwTYHxjI9+mA2RJWYH21gp0TjDJ+ztgjwICfHLRhcYpZnugJSG1+8kckuvZlgrnCf8e5J9gSjLKDjCPAgVYu3j9PTyj4eUCvbl/KhuX0sLYxMKqm8Uv4eV0Glf9AI8QRqVRr78AgIuYXfJZk00QCD3+MNLvkMjikoaHR0cHM6Ly9maW5uZXkuY2FsZW5kYXIuZXRlcm5pdHl3YWxsLmNvbQ==",
+      "submitted_at": "2026-07-13T17:06:03.673Z",
+      "bytes_len": 226
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest ddb76964a2761b3d8e26f5826eba3daf89561e5c67d237187f29c5bedf6f0604 <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
