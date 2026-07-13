@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-13T17:06:10.109Z",
-  "head_hash": "ddb76964a2761b3d8e26f5826eba3daf89561e5c67d237187f29c5bedf6f0604",
-  "seq_id": 25,
-  "total_records": 25,
+  "updated_at": "2026-07-13T17:09:21.038Z",
+  "head_hash": "b3e314a81dd5d31ff9a955c43726d23111c66856b42f7b36b88b498df61a4c2c",
+  "seq_id": 28,
+  "total_records": 28,
   "first_published_ts": "2026-07-06T17:02:42.948Z",
-  "last_published_ts": "2026-07-13T17:06:02.313Z",
+  "last_published_ts": "2026-07-13T17:09:16.587Z",
   "recent": [
     {
       "seq_id": 1,
@@ -230,6 +230,33 @@
       "sha": "df0e1f7fade565fb5f24415a8bc69aec3e660fef",
       "hash": "ddb76964a2761b3d8e26f5826eba3daf89561e5c67d237187f29c5bedf6f0604",
       "ts": "2026-07-13T17:06:02.313Z"
+    },
+    {
+      "seq_id": 26,
+      "type": "account_deleted",
+      "asof": "2026-07-13",
+      "path": "accounts/2026-07-13_s0026_account_deleted.json",
+      "sha": "bf811c1b757d56e62cf8b0b74a137a545e541044",
+      "hash": "9524153ab062aaf27ed22246ecbdf9eb97ba1654345b1e1b127967a2ce7b7cd8",
+      "ts": "2026-07-13T17:06:21.925Z"
+    },
+    {
+      "seq_id": 27,
+      "type": "account_created",
+      "asof": "2026-07-13",
+      "path": "accounts/2026-07-13_s0027_account_created.json",
+      "sha": "6e8cd95617da9bee3e12c97d0e80acb6b4402217",
+      "hash": "3c541dd9b52530a0c9fd35e0a202bb86f9909472b4cddda8bd4ee9d139d1d7c6",
+      "ts": "2026-07-13T17:06:43.993Z"
+    },
+    {
+      "seq_id": 28,
+      "type": "snapshot",
+      "asof": "2026-07-13",
+      "path": "snapshots/2026-07-13_s0028_snapshot.json",
+      "sha": "5bd4f2cc660c0080018378b03bdbfda1b35ab2df",
+      "hash": "b3e314a81dd5d31ff9a955c43726d23111c66856b42f7b36b88b498df61a4c2c",
+      "ts": "2026-07-13T17:09:16.587Z"
     }
   ],
   "verification": {
