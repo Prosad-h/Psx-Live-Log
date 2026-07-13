@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-13T17:05:01.769Z",
-  "head_hash": "a7cbb1daff7282705554bbddc04308ba59987358085abbbe9f37af2464e7a86f",
-  "seq_id": 22,
-  "total_records": 22,
+  "updated_at": "2026-07-13T17:06:10.109Z",
+  "head_hash": "ddb76964a2761b3d8e26f5826eba3daf89561e5c67d237187f29c5bedf6f0604",
+  "seq_id": 25,
+  "total_records": 25,
   "first_published_ts": "2026-07-06T17:02:42.948Z",
-  "last_published_ts": "2026-07-13T17:04:56.277Z",
+  "last_published_ts": "2026-07-13T17:06:02.313Z",
   "recent": [
     {
       "seq_id": 1,
@@ -203,6 +203,33 @@
       "sha": "9223330730f2d9751c790d0974cdf3c6784f2e97",
       "hash": "a7cbb1daff7282705554bbddc04308ba59987358085abbbe9f37af2464e7a86f",
       "ts": "2026-07-13T17:04:56.277Z"
+    },
+    {
+      "seq_id": 23,
+      "type": "account_deleted",
+      "asof": "2026-07-13",
+      "path": "accounts/2026-07-13_s0023_account_deleted.json",
+      "sha": "04c96b681a5c03b7509ff8be9e4a0c10ad1fac77",
+      "hash": "51c14ecde13d30323d9114e2d7a18457c97fc09d50a4846e358f6bb7f9c88527",
+      "ts": "2026-07-13T17:05:15.612Z"
+    },
+    {
+      "seq_id": 24,
+      "type": "account_created",
+      "asof": "2026-07-13",
+      "path": "accounts/2026-07-13_s0024_account_created.json",
+      "sha": "d8d09b869f38c66763e1c216496cc8d77984a881",
+      "hash": "4a6f884c9dc9ac58d39dc5c2c10f835869afaa04734c211c4ec18cf8a82fa1bc",
+      "ts": "2026-07-13T17:05:28.670Z"
+    },
+    {
+      "seq_id": 25,
+      "type": "account_created",
+      "asof": "2026-07-13",
+      "path": "accounts/2026-07-13_s0025_account_created.json",
+      "sha": "df0e1f7fade565fb5f24415a8bc69aec3e660fef",
+      "hash": "ddb76964a2761b3d8e26f5826eba3daf89561e5c67d237187f29c5bedf6f0604",
+      "ts": "2026-07-13T17:06:02.313Z"
     }
   ],
   "verification": {
