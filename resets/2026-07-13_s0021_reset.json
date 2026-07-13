@@ -1,0 +1,43 @@
+{
+  "seq_id": 21,
+  "type": "reset",
+  "asof": "2026-07-13",
+  "prev_hash": "373eb646e03f987ba9f19eb1ee4344eb5c36932d4e657f4cfc745d541a34a1aa",
+  "app_ts": "2026-07-13T16:35:39.976Z",
+  "account_id": 1,
+  "account_name": "Original Account",
+  "old_state": {
+    "starting_pkr": 1000000,
+    "cash_pkr": 160,
+    "positions_value_pkr": 995231,
+    "total_equity_pkr": 995390,
+    "return_pct": -0.461,
+    "positions_count": 20,
+    "realized_pnl_pkr": -4610,
+    "unrealized_pnl_pkr": 0
+  },
+  "new_starting_pkr": 1000000,
+  "reason": "user-initiated reset",
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AjiXOtsyfn6AwjwEKRHZiSYAknEfo0vDgS9yIcI8CA58Kl7tvHwfLChqR6rfRHlg6GPVBRFYlER1CS2HC9xjwjxIPc2m5g28HMSuaNPScPj1ypr+f4tF9dDfQGGKvsVPM3LCPEEalUT3fAIWOMUc0C18qwAg9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw==",
+      "submitted_at": "2026-07-13T16:35:41.876Z",
+      "bytes_len": 172
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AjT4nHC7UkIlQjwIEFSOkcDL8HuhsBt7gn0ShAM2HSm8b50nkrruq+KodE9CPEgk/B0vdpn2mBA/zaAbu1LpyT5g2WUpGRXx3lWlgCuEJwI8BCB/WI4piFjlA18Hd2GkJeeCPEgBTOOBK+qAe1NY8VeCDxqAUHrqYPHRf7S1FTcZAoXsqAI8QRqVRPd8AgSyzNSX2tuJwCD3+MNLvkMjiwraHR0cHM6Ly9ib2IuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw==",
+      "submitted_at": "2026-07-13T16:35:41.646Z",
+      "bytes_len": 205
+    },
+    {
+      "calendar": "https://finney.calendar.eternitywall.com",
+      "receipt_b64": "8BASSrRbjUcGnKwY0ywHaPLdCPEgmIZDvaq1yjgnCcmxxtO0nkb9nDu44uWLPOmdPIjY0KII8SBdRzZfkN/s7/DepotxrGxcj1zixBlgIv/C4gUnNkyNMgjwIM+OvwOcuFuTWz9SqEsiMI0LCD3WzlTpev2Ok9ENju5jCPEEalUT3fAIYBa93NnVy0cAg9/jDS75DI4pKGh0dHBzOi8vZmlubmV5LmNhbGVuZGFyLmV0ZXJuaXR5d2FsbC5jb20=",
+      "submitted_at": "2026-07-13T16:35:41.691Z",
+      "bytes_len": 191
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest 73a73e6a96676e9382a468e893cf4019e1f5ed2352121665d59e90e37f8abc1d <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
