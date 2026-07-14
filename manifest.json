@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-13T18:00:08.990Z",
-  "head_hash": "982ca192ecc4eebc93ce2444b9e9e3f42a1bbe610c0bf094ad6d461bc1aaf5bc",
-  "seq_id": 24,
-  "total_records": 24,
+  "updated_at": "2026-07-14T13:12:26.250Z",
+  "head_hash": "1af3b94decdbfc4fe580bd8d5ff0d2a4000440d873b0f4c4537427c7ed036602",
+  "seq_id": 28,
+  "total_records": 28,
   "first_published_ts": "2026-07-06T17:02:42.948Z",
-  "last_published_ts": "2026-07-13T18:00:02.153Z",
+  "last_published_ts": "2026-07-14T13:12:22.025Z",
   "recent": [
     {
       "seq_id": 1,
@@ -221,6 +221,42 @@
       "sha": "345563d628d29ecb778d2eb64f6e056bb603a8e5",
       "hash": "982ca192ecc4eebc93ce2444b9e9e3f42a1bbe610c0bf094ad6d461bc1aaf5bc",
       "ts": "2026-07-13T18:00:02.153Z"
+    },
+    {
+      "seq_id": 25,
+      "type": "rebalance",
+      "asof": "2026-07-13",
+      "path": "rebalances/2026-07-13_s0025_rebalance.json",
+      "sha": "f35b4e22db2c8a413f7c020897ad4607d24c1809",
+      "hash": "1b5af114ac2dc2228c75557724ef12a059b8697639971ca52095a81563b45eeb",
+      "ts": "2026-07-13T18:00:33.141Z"
+    },
+    {
+      "seq_id": 26,
+      "type": "rebalance",
+      "asof": "2026-07-13",
+      "path": "rebalances/2026-07-13_s0026_rebalance.json",
+      "sha": "fe49d3d4174c4255dc2c554ddea4855274b8f5a1",
+      "hash": "a0a20b054fafa2054a9bb70642c2e16f0718f43118d3ed2000ea64befe279a81",
+      "ts": "2026-07-13T18:00:56.466Z"
+    },
+    {
+      "seq_id": 27,
+      "type": "snapshot",
+      "asof": "2026-07-13",
+      "path": "snapshots/2026-07-13_s0027_snapshot.json",
+      "sha": "e4988b9f738fa88b0dddf47902dd5c13b595d88b",
+      "hash": "9492eed0b8c276371520cd433def98d9a18c73351c1b2148299e07868e8cde9b",
+      "ts": "2026-07-13T18:01:01.612Z"
+    },
+    {
+      "seq_id": 28,
+      "type": "snapshot",
+      "asof": "2026-07-14",
+      "path": "snapshots/2026-07-14_s0028_snapshot.json",
+      "sha": "4466a0e046d64309a209b62d16fcf262b6fac067",
+      "hash": "1af3b94decdbfc4fe580bd8d5ff0d2a4000440d873b0f4c4537427c7ed036602",
+      "ts": "2026-07-14T13:12:22.025Z"
     }
   ],
   "verification": {
