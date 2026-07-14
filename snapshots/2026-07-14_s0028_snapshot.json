@@ -1,0 +1,39 @@
+{
+  "seq_id": 28,
+  "type": "snapshot",
+  "asof": "2026-07-14",
+  "prev_hash": "9492eed0b8c276371520cd433def98d9a18c73351c1b2148299e07868e8cde9b",
+  "app_ts": "2026-07-14T13:12:22.025Z",
+  "account_id": 3,
+  "account_name": "Champion",
+  "starting_pkr": 1000000,
+  "cash_pkr": 916,
+  "positions_value_pkr": 955076,
+  "total_equity_pkr": 955992,
+  "return_pct": -4.4008,
+  "unrealized_pnl_pkr": -39376,
+  "realized_pnl_pkr": -4632,
+  "positions_count": 25,
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8Ajf05+fadbRdQjwEISNrRjjDODzQ4a6RE8nJWUI8SCEQgx9VhiJMI5PnEOafr47sBoXNVyQq2fzIx0iA4ksAQjxBGpWNbfwCJ7Sa5TjRhbBAIPf4w0u+QyOLi1odHRwczovL2FsaWNlLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmc=",
+      "submitted_at": "2026-07-14T13:12:24.098Z",
+      "bytes_len": 137
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AgcjUcO+CaTVwjxIEZv4WgBPLvTuyQPLRyqup1jTE/q+dTypkk4/sY8bF6oCPAQ5qIBCnpEkvIm+MaC7gsX5AjwILJF15lFrf+Uo6Kt60d97Rb10by2VUWxq0UQY2bjug8VCPEgUM9W+qFV97q0edqPtYiw/oQRGGxvjy0RRyYZoId67m0I8QRqVjW38AjCDHo1mri2mQCD3+MNLvkMjiwraHR0cHM6Ly9ib2IuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw==",
+      "submitted_at": "2026-07-14T13:12:23.896Z",
+      "bytes_len": 205
+    },
+    {
+      "calendar": "https://finney.calendar.eternitywall.com",
+      "receipt_b64": "8BBI9vusNJrUis8mksPB4IkcCPAgnOIpLz1ryrfDMzTHu2IUtYp4ob0+r9E93uotlqg/AtUI8SAlQBFjbDz3QgU034Z4mxPKSer7dEWLZQ4CzTuAaxkd2AjwICHjCeoLlpp6vnXSVrFXex+q+jIykNK0EHYExHktC3eqCPEEalY1t/AILTR+mowhpYkAg9/jDS75DI4pKGh0dHBzOi8vZmlubmV5LmNhbGVuZGFyLmV0ZXJuaXR5d2FsbC5jb20=",
+      "submitted_at": "2026-07-14T13:12:23.542Z",
+      "bytes_len": 191
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest 1af3b94decdbfc4fe580bd8d5ff0d2a4000440d873b0f4c4537427c7ed036602 <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
