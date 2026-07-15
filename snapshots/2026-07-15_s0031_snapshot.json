@@ -1,0 +1,33 @@
+{
+  "seq_id": 31,
+  "type": "snapshot",
+  "asof": "2026-07-15",
+  "prev_hash": "79ee4a46d7483076b2672067f76e8684914f57b99bb53b6a6251ee563bb2f8c4",
+  "app_ts": "2026-07-15T13:31:30.373Z",
+  "account_id": 2,
+  "account_name": "Baseline",
+  "starting_pkr": 1000000,
+  "cash_pkr": 484,
+  "positions_value_pkr": 953921,
+  "total_equity_pkr": 954405,
+  "return_pct": -4.5595,
+  "unrealized_pnl_pkr": -41012,
+  "realized_pnl_pkr": -4583,
+  "positions_count": 20,
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8Ag6x09c38yd5QjwIBPcpuQmiFoistz01NjlukiIWDhfeaHozUKwSJMAJM5TCPAQR09v2PJTE6S/NMz2PrK2uwjxIG/wuWRkPxKueNHoXsid72hz8OYSZJQVB3iaocQdUmhGCPEg3wO7E4Y3baUzPKnPdHQZrDvSe8opLssO5/zDDq/P0osI8QRqV4u08AiOhOCGgCcD3gCD3+MNLvkMji4taHR0cHM6Ly9hbGljZS5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+      "submitted_at": "2026-07-15T13:31:32.945Z",
+      "bytes_len": 207
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8AjIlBRXsmSnrAjwELJpVUcAnVDDAwPTBoo6hJQI8SD1GjxYhBp7ULJsgoX7eFAfSDOQHOcVcIW5k0JxaStkbwjxBGpXi7TwCDbzvgn34wLGAIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3BlbnRpbWVzdGFtcHMub3Jn",
+      "submitted_at": "2026-07-15T13:31:32.707Z",
+      "bytes_len": 135
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest 3708bb990896ffe100865fedb4ed7b9f5bac2b109e6f2290fa9030b7d4793610 <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
