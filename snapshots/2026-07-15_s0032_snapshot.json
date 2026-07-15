@@ -1,0 +1,39 @@
+{
+  "seq_id": 32,
+  "type": "snapshot",
+  "asof": "2026-07-15",
+  "prev_hash": "3708bb990896ffe100865fedb4ed7b9f5bac2b109e6f2290fa9030b7d4793610",
+  "app_ts": "2026-07-15T13:32:17.479Z",
+  "account_id": 3,
+  "account_name": "Champion",
+  "starting_pkr": 1000000,
+  "cash_pkr": 916,
+  "positions_value_pkr": 961246,
+  "total_equity_pkr": 962162,
+  "return_pct": -3.7838,
+  "unrealized_pnl_pkr": -33206,
+  "realized_pnl_pkr": -4632,
+  "positions_count": 25,
+  "ots_receipts": [
+    {
+      "calendar": "https://alice.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8Aio8tN8UzQ6BAjxID5YnmWn8YIP8HAIaoUrI3qFOjD3eGBR9z7rIQqG+DOJCPAQFjgemynIXaHillw/3SZqDAjwIGn6rXSKdbayr3+pzMhAIGr3xvtAs04xeqbeN4kJyYOJCPAgMrveGTca5AFFnV+xe8vlf++JYMp+BtPbVUpqc7eOrRYI8CD/RhUmmvxA8PGlO5ubKX+Kva8A2k64hz82wGqs7nz2wgjxBGpXi+PwCDPudpx6+/3nAIPf4w0u+QyOLi1odHRwczovL2FsaWNlLmJ0Yy5jYWxlbmRhci5vcGVudGltZXN0YW1wcy5vcmc=",
+      "submitted_at": "2026-07-15T13:32:20.081Z",
+      "bytes_len": 242
+    },
+    {
+      "calendar": "https://bob.btc.calendar.opentimestamps.org",
+      "receipt_b64": "8Ajef8FgcIUXUQjxIHOm1eCymp8LrjhP9S3+bfsvjlBgZPRYDGSr0xVZiCIXCPAQmHpUtpfeaoTAmsrwX5mNvQjxIKIWPlUT6nFfnKS+ozTWnz4h4ZPfFvr6yV5PYWQ8Nlc0CPAg8ahNXAUGh7npghtx0+cdR5KJHumEdxvgXDCrBx5BH3AI8QRqV4vi8AgvHkUvD+jacQCD3+MNLvkMjiwraHR0cHM6Ly9ib2IuYnRjLmNhbGVuZGFyLm9wZW50aW1lc3RhbXBzLm9yZw==",
+      "submitted_at": "2026-07-15T13:32:18.890Z",
+      "bytes_len": 205
+    },
+    {
+      "calendar": "https://finney.calendar.eternitywall.com",
+      "receipt_b64": "8BC2yNIVrl0C/mPKybT+8iOzCPAgg+eR+0nHhSGsn1Htla2mnHWjAHhgiM64zpWtQYwmi44I8CDC7FI/r/k5rvIZKQmmiBMWjNLWzE0drfleUVpAgKa6kQjwIEtTtquMUoQIB+QOznqoa3jNY9Tfb2HEyCp+f0Un3yUFCPAgincx77RBEKMrZOtbIwHEyRaJIf7ha23IAgGitKYlw0MI8QRqV4vj8Ahy7K70G3wDdwCD3+MNLvkMjikoaHR0cHM6Ly9maW5uZXkuY2FsZW5kYXIuZXRlcm5pdHl3YWxsLmNvbQ==",
+      "submitted_at": "2026-07-15T13:32:19.229Z",
+      "bytes_len": 226
+    }
+  ],
+  "hash_rule": "sha256 of canonical JSON of this record MINUS the ots_receipts and hash_rule fields",
+  "ots_verify": "run `ots verify --digest 13d0e2406dd097994e9670ef43d82e743472ba31fd3083721c39ce0dfa5b12ac <receipt.ots>` where the .ots file is one of the ots_receipts, base64-decoded to bytes"
+}
